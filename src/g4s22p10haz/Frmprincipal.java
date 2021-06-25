@@ -149,8 +149,8 @@ public class Frmprincipal extends javax.swing.JFrame {
         
         listadatos = archivo.leer();
         listadatos.forEach(datos->{
-            txtarea.setText(datos.getNombre()+ "\n");
-            txtarea.setText(datos.getEdad()+ "\n");
+            txtarea.setText(datos.getNombre()+"\n"+datos.getEdad());
+            
     });
     }//GEN-LAST:event_btnleerActionPerformed
 
