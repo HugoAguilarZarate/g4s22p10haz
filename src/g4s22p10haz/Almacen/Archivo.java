@@ -30,6 +30,7 @@ public class Archivo {
         }catch(Exception ex){
             ex.printStackTrace();
         }
+    }
         public List<Datos> leer(){
             List<Datos> Listadatos = new ArrayList<>();
              Datos  datos;
@@ -53,4 +54,4 @@ public class Archivo {
         }
             }
     
-}
+
